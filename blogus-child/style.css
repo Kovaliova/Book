@@ -1,0 +1,52 @@
+/*
+Theme Name: Blogus Child
+Template: blogus
+Theme URI: https://themeansar.com/free-themes/blogus-free-blog-wordpress-theme/
+Author: Kate
+Author URI: https://themeansar.com
+Description: Blogus Theme
+Version: 1.0.0.81
+Tested up to: 6.4.3
+Requires PHP: 7.0
+Requires at least: 5.4
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, translation-ready, custom-background, custom-logo, featured-images, footer-widgets, full-width-template, blog, e-commerce, entertainment
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: blogus
+*/
+@import url("../blogus/style.css");
+
+.wrapper-books--container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.wrapper-books--container .img-wrapper img{
+    width: 200px;
+}
+.post,
+.comments-area{
+    display: none;
+}
+.filter-wrapper button{
+    width: 100%;
+    margin: 10px 0 0;
+    text-transform: uppercase;
+}
+.reset-btn{
+    background: #0025ff;
+    color: #fff;
+    border-color: #0025ff;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 0 0;
+    height: 54px;
+    line-height: 53px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.reset-btn:hover{
+    background: #0F1012;
+    border-color: #0F1012;
+}
